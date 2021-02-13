@@ -1,0 +1,83 @@
+#Application Enviournments
+SarathiCOV=https://sarathicov.nic.in:8443/sarathiservice/stateSelection.do
+SarathiProd=https://sarathiprod.nic.in/sarathiservice/stateSelection.do
+Stall_Staging=https://sarathicov.nic.in:8443/sarathiservice/authenticationaction.do
+Stall_Prod=https://sarathiprod.nic.in/sarathiservice/authenticationaction.do
+
+
+#Application Login Info
+CAS_SarathiCOV=https://sarathicov.nic.in:8443/cas/login?service=https%3A%2F%2Fsarathicov.nic.in%3A8443%2Fsarathiservice%2Fsarathilogin.do
+CAS_SarathiProd=https://sarathiprod.nic.in/cas/login?service=https%3A%2F%2Fsarathiprod.nic.in%2Fsarathiservice%2Fsarathilogin.do
+CommonPortal=https://sarathicov.nic.in:8443/sarathi/sarathilogin.do
+
+#StateCode=States
+AN=Andaman and Nicobar
+AP=Andhra Pradesh
+AR=Arunachal Pradesh
+AS=Assam
+BR=Bihar
+CG=Chhattisgarh
+CH=Chandigarh
+DD=UT of DNH and DD
+DL=Delhi
+DN=Dadra & Nagar Haveli
+GA=Goa
+GJ=Gujarat
+HP=Himachal Pradesh
+HR=Haryana
+JH=Jharkhand
+JK=Jammu and Kashmir
+KA=Karnataka
+KL=Kerala
+LA=Ladakh
+LD=Lakshadweep
+MH=Maharashtra
+ML=Meghalaya
+MN=Manipur
+MP=Madhya Pradesh
+MZ=Mizoram
+NL=Nagaland
+OD=Odisha
+PB=Punjab
+PY=Pondicherry
+RJ=Rajasthan
+SK=Sikkim
+TN=Tamil Nadu
+TR=Tripura
+TS=Telangana
+UA=UA-Uttarakhand
+UK=Uttarakhand
+UP=Uttar Pradesh
+WB=West Bengal
+
+#StateCustom Checks Sheet
+DataFile_State=StateCustom
+#StateCustom Checks
+RTOCheck=sw_version
+LLDLCheck=lldl_same_time
+Camp=restrict_dlsp_camplist_tousr
+Educationins=ins_lls_by_colleges
+Allowllforotherstate=allow_otherstate_ll
+Applyingotherstate=coa_mand_other_rtos
+LLRenew_Retest=llreqd_renew_retest
+LLAEDLCheck=is_ll_aedl_sametime
+Addrchange=allow_addr_change_at_dlserv_reqst
+eKYC=appl_adhar_authenticate_reqd
+PinMapping=rtopin_mapping_reqd
+Form1=form1_required
+CollectDL=is_dispatch_hand_reqd
+#StallExam
+DataFile_Stall=StallExamData
+Ansbank=ab_answer
+DataFile_StallCustom=StallCustom
+TestatHome=allow_llexam_from_home
+TypeofTest=sc_test_for
+#s4customRTO
+DataFile_s4customrto=S4CustomRTO
+Verifyappchecks=thumb_verify_lltest
+
+#Application Log Files info
+SarathiCOVeKYCLogURL=https://sarathicov.nic.in:8443/applogs/sarathiservice.log
+SarathiCOVSlotsSecurityCodeLogURL=https://sarathicov.nic.in:8443/applogs/slots.log
+SarathiprodeKYCLogURL=http://sarathiprod.nic.in/applogs/sarathiservicecov.log
+SarathiprodSlotsSecurityCodeLogURL=http://sarathiprod.nic.in/applogs/slots.log

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1997594" started-at="2021-02-13T10:40:58Z" finished-at="2021-02-13T11:14:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1997594" started-at="2021-02-13T10:40:58Z" finished-at="2021-02-13T11:14:15Z">
+      <class name="testScripts.TestGeneric">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="beforesuite" is-config="true" duration-ms="312" started-at="2021-02-13T16:10:57Z" finished-at="2021-02-13T16:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="beforemethod" is-config="true" duration-ms="1434" started-at="2021-02-13T16:10:58Z" finished-at="2021-02-13T16:10:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="Predatacheck()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="Predatacheck" is-config="true" duration-ms="11000" started-at="2021-02-13T16:10:59Z" finished-at="2021-02-13T16:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Predatacheck -->
+        <test-method status="PASS" signature="TC01()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="TC01" duration-ms="495064" started-at="2021-02-13T16:11:10Z" finished-at="2021-02-13T16:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="CloseBrowser" is-config="true" duration-ms="1168" started-at="2021-02-13T16:19:25Z" finished-at="2021-02-13T16:19:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="aftermethod" is-config="true" duration-ms="619" started-at="2021-02-13T16:19:26Z" finished-at="2021-02-13T16:19:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01 status=SUCCESS method=TestGeneric.TC01()[pri:0, instance:testScripts.TestGeneric@64bfbc86] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="beforemethod" is-config="true" duration-ms="156" started-at="2021-02-13T16:19:27Z" finished-at="2021-02-13T16:19:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="Predatacheck()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="Predatacheck" is-config="true" duration-ms="7720" started-at="2021-02-13T16:19:27Z" finished-at="2021-02-13T16:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Predatacheck -->
+        <test-method status="PASS" signature="TC02()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="TC02" duration-ms="286867" started-at="2021-02-13T16:19:35Z" depends-on-methods="testScripts.TestGeneric.TC01" finished-at="2021-02-13T16:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="CloseBrowser" is-config="true" duration-ms="953" started-at="2021-02-13T16:24:22Z" finished-at="2021-02-13T16:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="aftermethod" is-config="true" duration-ms="406" started-at="2021-02-13T16:24:23Z" finished-at="2021-02-13T16:24:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02 status=SUCCESS method=TestGeneric.TC02()[pri:0, instance:testScripts.TestGeneric@64bfbc86] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="beforemethod" is-config="true" duration-ms="94" started-at="2021-02-13T16:24:23Z" finished-at="2021-02-13T16:24:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="Predatacheck()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="Predatacheck" is-config="true" duration-ms="7364" started-at="2021-02-13T16:24:23Z" finished-at="2021-02-13T16:24:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Predatacheck -->
+        <test-method status="PASS" signature="TC03()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="TC03" duration-ms="87482" started-at="2021-02-13T16:24:30Z" depends-on-methods="testScripts.TestGeneric.TC02, testScripts.TestGeneric.TC01" finished-at="2021-02-13T16:25:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="CloseBrowser" is-config="true" duration-ms="833" started-at="2021-02-13T16:25:58Z" finished-at="2021-02-13T16:25:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="aftermethod" is-config="true" duration-ms="187" started-at="2021-02-13T16:25:59Z" finished-at="2021-02-13T16:25:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC03 status=SUCCESS method=TestGeneric.TC03()[pri:0, instance:testScripts.TestGeneric@64bfbc86] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="beforemethod" is-config="true" duration-ms="78" started-at="2021-02-13T16:25:59Z" finished-at="2021-02-13T16:25:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="Predatacheck()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="Predatacheck" is-config="true" duration-ms="7464" started-at="2021-02-13T16:25:59Z" finished-at="2021-02-13T16:26:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Predatacheck -->
+        <test-method status="PASS" signature="TC04()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="TC04" duration-ms="318487" started-at="2021-02-13T16:26:06Z" depends-on-methods="testScripts.TestGeneric.TC03, testScripts.TestGeneric.TC02, testScripts.TestGeneric.TC01" finished-at="2021-02-13T16:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="CloseBrowser" is-config="true" duration-ms="1190" started-at="2021-02-13T16:31:25Z" finished-at="2021-02-13T16:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="aftermethod" is-config="true" duration-ms="161" started-at="2021-02-13T16:31:26Z" finished-at="2021-02-13T16:31:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC04 status=SUCCESS method=TestGeneric.TC04()[pri:0, instance:testScripts.TestGeneric@64bfbc86] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="beforemethod" is-config="true" duration-ms="78" started-at="2021-02-13T16:31:26Z" finished-at="2021-02-13T16:31:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="Predatacheck()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="Predatacheck" is-config="true" duration-ms="7428" started-at="2021-02-13T16:31:26Z" finished-at="2021-02-13T16:31:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Predatacheck -->
+        <test-method status="PASS" signature="TC05()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="TC05" duration-ms="182294" started-at="2021-02-13T16:31:34Z" depends-on-methods="testScripts.TestGeneric.TC04" finished-at="2021-02-13T16:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC05 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2021-02-13T16:34:36Z" finished-at="2021-02-13T16:34:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="aftermethod" is-config="true" duration-ms="132" started-at="2021-02-13T16:34:36Z" finished-at="2021-02-13T16:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC05 status=SUCCESS method=TestGeneric.TC05()[pri:0, instance:testScripts.TestGeneric@64bfbc86] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="beforemethod" is-config="true" duration-ms="78" started-at="2021-02-13T16:34:36Z" finished-at="2021-02-13T16:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="Predatacheck()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="Predatacheck" is-config="true" duration-ms="7689" started-at="2021-02-13T16:34:36Z" finished-at="2021-02-13T16:34:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Predatacheck -->
+        <test-method status="PASS" signature="TC06()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="TC06" duration-ms="363365" started-at="2021-02-13T16:34:44Z" depends-on-methods="testScripts.TestGeneric.TC05" finished-at="2021-02-13T16:40:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC06 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="CloseBrowser" is-config="true" duration-ms="1109" started-at="2021-02-13T16:40:47Z" finished-at="2021-02-13T16:40:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="aftermethod" is-config="true" duration-ms="143" started-at="2021-02-13T16:40:48Z" finished-at="2021-02-13T16:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC06 status=SUCCESS method=TestGeneric.TC06()[pri:0, instance:testScripts.TestGeneric@64bfbc86] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="beforemethod" is-config="true" duration-ms="47" started-at="2021-02-13T16:40:49Z" finished-at="2021-02-13T16:40:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="Predatacheck()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="Predatacheck" is-config="true" duration-ms="7871" started-at="2021-02-13T16:40:49Z" finished-at="2021-02-13T16:40:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Predatacheck -->
+        <test-method status="FAIL" signature="TC07()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="TC07" duration-ms="197541" started-at="2021-02-13T16:40:57Z" depends-on-methods="testScripts.TestGeneric.TC06" finished-at="2021-02-13T16:44:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:288)
+	at org.testng.Assert.assertEquals(Assert.java:298)
+	at frameworkLibrary.ReportLibrary.reportEvent(ReportLibrary.java:72)
+	at applicationPages.NewDLSlotBookingPage.Clickon_Next(NewDLSlotBookingPage.java:409)
+	at applicationPages.Flows.LL_DL_ServiceSlotbooking(Flows.java:414)
+	at applicationPages.Flows.Initiate_Public_Flows(Flows.java:162)
+	at applicationPages.Flows.Verify_ApplicationCurrentStatus(Flows.java:96)
+	at applicationPages.Flows.VerifyFlows(Flows.java:87)
+	at applicationPages.DLServices.SelcectService(DLServices.java:1108)
+	at applicationPages.DLServices.Continuewithdetails(DLServices.java:1788)
+	at applicationPages.DLServices.Clickon_ServicesonDL(DLServices.java:62)
+	at applicationPages.DLModule.Validate_Service(DLModule.java:401)
+	at testScripts.TestGeneric.TC07(TestGeneric.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC07 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="CloseBrowser" is-config="true" duration-ms="914" started-at="2021-02-13T16:44:14Z" finished-at="2021-02-13T16:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult, org.testng.ITestContext)[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="aftermethod" is-config="true" duration-ms="128" started-at="2021-02-13T16:44:15Z" finished-at="2021-02-13T16:44:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC07 status=FAILURE method=TestGeneric.TC07()[pri:0, instance:testScripts.TestGeneric@64bfbc86] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@76be2a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:testScripts.TestGeneric@64bfbc86]" name="aftersuite" is-config="true" duration-ms="5990" started-at="2021-02-13T16:44:15Z" finished-at="2021-02-13T16:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- testScripts.TestGeneric -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

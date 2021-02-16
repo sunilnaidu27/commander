@@ -121,7 +121,7 @@ public class UploadPhoto_SignaturePage extends BasePage {
 
 	}
 
-	@FindBy(how = How.XPATH, using = "(//h3)[2]")
+	@FindBy(how = How.XPATH, using = "(//h3)[3]")
 	WebElement Sucess;
 
 	public void Clickon_SavephotoandSignature() {
